@@ -1,0 +1,19 @@
+.cookie{
+   
+    position: fixed;
+    bottom:2% ;
+}
+.uses{
+    font-size: 13px;
+}
+.accept{
+    width: 160% !important;
+    font-size: 16px;
+
+}
+@media (max-width:900px){
+  /* .cookie{
+    display: none;
+  } */
+
+ }

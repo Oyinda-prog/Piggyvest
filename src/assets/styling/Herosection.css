@@ -1,0 +1,48 @@
+#img1{
+    height: 100px;
+}
+.highest{
+    font-size: 14px;
+    color: black;
+}
+.secure{
+    color: black;
+    font-weight: bold;
+}
+#containy{
+    margin-top: 180px !important;
+    margin-bottom: 120px;
+}
+#learn{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width:1000px){
+   .secure{
+    margin-top: -130px !important;
+    margin-left: 40px !important;
+    font-size: 10px;
+   }
+   #img1{
+    height: 20px !important;
+}
+   #containy{
+    margin-top: 10px !important;
+   }
+   
+   .highest{
+    margin-left: 40px !important;
+    font-size: 10px;
+   }
+   #img1{
+    height: 80px !important;
+    width: 10%;
+}
+} 

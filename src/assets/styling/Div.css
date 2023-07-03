@@ -1,0 +1,87 @@
+.div2{
+    color: purple;
+    font-size: 20px;
+}
+#save{
+    font-size: 60px;
+    color: black;
+
+}
+
+#way{
+    font-size: 60px;
+    color: black;
+}
+#border1{
+    width: 65%;
+    height: 570px;
+    border: 2px solid black;
+    border-radius: 15px;
+   
+    margin-left: 140px;
+}
+#card1{
+    position: absolute;
+    top: 55% !important;
+    width: 14%;
+    height: 100px;
+    margin-left:-450px !important;
+}
+#card2{
+    position: absolute;
+    top: 90% !important;
+    width: 15%;
+    height: 110px;
+    margin-left:-80px !important;
+}
+#contain{
+    margin-top: 130px !important;
+}
+.iphone,.android{
+    width: 70%;
+}
+.android{
+    margin-left: -80px;
+    width:100%;
+}
+.iphone:hover,.android:hover{
+margin-top: -10px;
+}
+#help,#goal{
+    font-size: 15px;
+    color: black;
+}
+#head{
+     opacity: 90%;
+    margin-left: -50px !important;
+    margin-top: 30px !important;
+}
+@media (max-width:1000px){
+    #head{
+
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+      
+    }  
+    #border1{
+        width: 100%;
+       
+        margin-left: 0px;
+    }
+    #card1,#card2{
+        display: none;
+    }
+    #contain{
+        margin-top: -30px !important;
+    }
+    #way,#save{
+        font-size: 40px !important;
+        margin-left: 20px !important;
+    }
+    #help,.account,.iphone{
+        margin-left: 20px !important;  
+    }
+    .android{
+        margin-left: 1px !important;
+    }
+}

@@ -1,0 +1,12 @@
+.image1{
+    width: 80% !important;
+}
+.featured{
+    margin-bottom: 100px;
+}
+@media (max-width:1000px){
+    .featured{
+      
+        display: none;
+    }
+ }

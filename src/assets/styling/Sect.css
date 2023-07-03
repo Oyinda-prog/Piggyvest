@@ -1,0 +1,26 @@
+.pigg{
+    width: 14% !important;
+    height: 50px;
+    opacity: 80%;
+}
+#bgColor{
+    color: #BBBBBB !important;
+}
+.flex:hover{
+margin-left: 8px;
+}
+a{
+    text-decoration: none;
+}
+.reach{
+    text-decoration: none !important;
+}
+.secty{
+    margin-bottom: 170px;
+}
+@media (max-width:1000px){
+ .secty,.ways{
+    margin-top: -100px!important;
+ }
+ 
+ }

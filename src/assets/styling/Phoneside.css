@@ -1,0 +1,22 @@
+.phone{
+    width: 48%;
+    margin-left: -70px;
+   
+}
+#a{
+    text-decoration: none;
+}
+.phoneSide{
+    margin-bottom: 150px;
+}
+.upTo{
+    background-color: lightcoral;
+    width: 30% !important;
+    font-weight: bold;
+    border-radius: 15px;
+}
+@media (max-width:1000px){
+   .phone2{
+    margin-top: 150px !important;
+   }
+}

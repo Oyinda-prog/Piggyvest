@@ -1,0 +1,56 @@
+#fix{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: white!important;
+    width: 100%;
+
+}
+#savee{
+color: black;
+font-weight: 600;
+font-size: 17px;
+}
+#savey{
+    color: black;
+    font-weight: 800;
+    font-size: 23px;   
+}
+#signin{
+border: 2px solid whitesmoke;
+
+color: black;
+font-weight: bold;
+
+margin-left: 100px;
+/* border-style: groove; */
+}
+#create{
+   border-radius: 15px !important;
+   border: 0;
+   /* margin-left: 200px; */
+}
+@media (max-width:1000px){
+    #fix{
+        width: 100%;
+         display: none;
+    }
+  
+
+ }
+ @media (max-width:900px){
+    #signin{
+        margin-left: 0;
+    }
+    #dblock{
+        width: 70% !important;
+       
+       
+    }
+
+ }
+ 
+/* *{
+    padding: 0;
+    margin: 0;
+} */
